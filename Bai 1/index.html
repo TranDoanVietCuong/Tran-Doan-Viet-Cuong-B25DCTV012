@@ -8,14 +8,21 @@
 </head>
 <body>
     <header>
-        <h1>Trang cá nhân của tôi!</h1>
+        <h1>Trang cá nhân của Cường!</h1>
     </header>
     <nav>
-        <a href="#">Trang chủ</a>
-        <a href="#">Giới thiệu</a>
-        <a href="#">Dự án cá nhân</a>
+        <!-- Thêm ID cho từng nút -->
+        <a href="#" id="link-home">Trang chủ</a>
+        <a href="#" id="link-about">Giới thiệu</a>
+        <a href="#" id="link-contact">Liên hệ</a>
     </nav>
+
     <main>
+        <div id="dynamic-content" class="content-box">
+            <h3>👋 Xin chào!</h3>
+            <p>Hãy click vào các menu ở trên để khám phá thông tin nhé!</p>
+        </div>
+
         <h2 id="welcome-text">Đang tải lời chào...</h2>
         <p>Chào mừng bạn đến với không gian cá nhân của mình!</p>
         <button id="change-color-btn">Đổi màu nền!</button>
