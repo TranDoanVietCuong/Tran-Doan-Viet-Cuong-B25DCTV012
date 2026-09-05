@@ -38,3 +38,19 @@ button {
 button:hover {
     background-color: #9e9c9c;
 }
+.content-box {
+    background-color: white;
+    border: 2px dashed #b71a1a; 
+    padding: 20px;
+    margin: 20px auto; 
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: left; 
+    line-height: 1.6;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.content-box h3 {
+    margin-top: 0;
+    color: #b71a1a;
+}
