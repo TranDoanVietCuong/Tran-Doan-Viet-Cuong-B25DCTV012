@@ -19,7 +19,10 @@ buttons.forEach(function(button) {
         }
         else {
             if (currentdisplay === '0' || currentdisplay === 'Lỗi') {
-                display.innerText = value;
+                if (value === '.'){
+                    display.innerText = '0.';
+                }
+                else display.innerText = value;
             }
             else {
                 display.innerText += value;
